@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+.title {
+    text-align: center;
+}
+body {
+    background-color: #222222;
+}
+
+body p {
+    color: #FFFFFF;
+}
+
+
+
+.nannido{
+	display:flex;
+	list-style:none;
+	text-align:center;
+	padding:0;
+	width:100%;
+}
+
+
+.nannido li{
+	text-align:center;
+	padding:10px;
+	width:100%
+}li form .botan {
+    width: 100px;
+    height: 50px;
+    font-size: large;
+}
+
+.number {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.number li{
+    text-align: center;
+}
+
+.hard_number {
+    display: flex;
+    list-style: none;
+    text-align: center;
+	width: 100%;
+    margin-left: 30%;
+    margin-right: 40%;
+}
+.hard_number li{
+    text-align: center;
+	width: 10%;
+}
+
+
+
+.sentaku {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin-left: 40%;
+}
+.sentaku li{
+    text-align: center;
+    width: 10%;
+}
+
+.normal_sentaku {
+    display: flex;
+    list-style: none;
+    width: 100%;
+	margin-left: 42%;
+}
+.normal_sentaku li{
+    text-align: center;
+    width: 8%;
+}
+
+.hard_sentaku {
+    display: flex;
+    list-style: none;
+    width: 100%;
+	margin-left: 32%;
+}
+.hard_sentaku li{
+    text-align: center;
+    width: 10%;
+}
+
+
+.Challenge {
+    text-align: center;
+
+}
+.Challenge form .botan {
+    width: 100px;
+    height: 50px;
+}
+
+.normal_Challenge {
+    text-align: center;
+
+}
+.normal_Challenge form .botan {
+    width: 100px;
+    height: 50px;
+}
+
+
+
+.gazou {
+    text-align: center;
+}
+
+.mozi {
+    text-align: center;
+    font-size: xx-large;
+}
+.scoa {
+    text-align: center;
+    font-size: xx-large;
+    color: #DD3232;
+}
+
+
+.return {
+    text-align: center;
+}
+.return form .botan {
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+}
+.botan {
+}
+.Challenge .botan {
+    width: 100px;
+    height: 50px;
+    font-size: large;
+}
+body p {
+    font-size: x-large;
+}
+.sentaku li .choose {
+    font-size: large;
+}
+.hard_sentaku li .choose {
+    font-size: large;
+}
+.normal_sentaku li .choose {
+    font-size: large;
+}

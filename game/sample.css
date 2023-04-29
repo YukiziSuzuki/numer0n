@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+.title {
+    text-align: center;
+}
+body {
+    background-color: #555555;
+}
+
+
+.nannido{
+	display:flex;
+	list-style:none;
+	text-align:center;
+	padding:0;
+	width:100%;
+}
+
+
+.nannido li{
+	text-align:center;
+	padding:10px;
+	width:100%
+}li form .botan {
+    width: 100px;
+    height: 50px;
+}
+
+.number {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.number li{
+    text-align: center;
+}
+
+.sentaku {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin-left: 40%;
+    padding-right: 0px;
+}
+.sentaku li{
+    text-align: center;
+    width: 10%;
+}
+
+.Challenge {
+    text-align: center;
+
+}
+.Challenge form .botan {
+    width: 100px;
+    height: 50px;
+}
+.gazou {
+    text-align: center;
+}
