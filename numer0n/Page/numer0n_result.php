@@ -84,18 +84,18 @@
 	<?php //プレイヤーの入力した数字を表示 ?>
 	<div class="number">
 		<p>YOU</p>
-		<li><img src="../picture/number/<?php echo $mil; ?>.png" width="100" height="100" alt=""/></li>
-		<li><img src="../picture/number/<?php echo $ten; ?>.png" width="100" height="100" alt=""/></li>
-		<li><img src="../picture/number/<?php echo $one; ?>.png" width="100" height="100" alt=""/></li>
+		<li><img src="../../picture/number/<?php echo $mil; ?>.png" width="100" height="100" alt=""/></li>
+		<li><img src="../../picture/number/<?php echo $ten; ?>.png" width="100" height="100" alt=""/></li>
+		<li><img src="../../picture/number/<?php echo $one; ?>.png" width="100" height="100" alt=""/></li>
 	</div>
 	
 	<p>　　</p>
 	<?php //コールした数字の結果を表示 ?>
 	<div class="eat_bite">
-	<li><img src="../picture/number/<?php echo $eat; ?>.png" width="100" height="100" alt=""/></li>
-	<li><img src="../picture/number/eat.png" width="200" height="100" alt=""/></li>
-	<li><img src="../picture/number/<?php echo $bite; ?>.png" width="100" height="100" alt=""/></li>
-	<li><img src="../picture/number/bite.png" width="200" height="100" alt=""/></li>
+	<li><img src="../../picture/number/<?php echo $eat; ?>.png" width="100" height="100" alt=""/></li>
+	<li><img src="../../picture/number/eat.png" width="200" height="100" alt=""/></li>
+	<li><img src="../../picture/number/<?php echo $bite; ?>.png" width="100" height="100" alt=""/></li>
+	<li><img src="../../picture/number/bite.png" width="200" height="100" alt=""/></li>
 	</div>
 	
 	
@@ -125,7 +125,7 @@
 		
 	<?php } else { ?>
 		<div class="Challenge">
-		<form action="./numer0n.php" method="get">
+		<form action="numer0n.php" method="get">
 			<input type="hidden" name="mil" value="<?php echo $mil; ?>">
 			<input type="hidden" name="ten" value=<?php echo $ten; ?>>
 			<input type="hidden" name="one" value=<?php echo $one; ?>>

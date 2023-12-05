@@ -104,43 +104,43 @@
 	if($flag1==0){ ?>
 	<div class="number">
 		<p>COM</p>
-		<li><img src="../picture/number/10.png" width="150" height="150" alt=""/></li>
-		<li><img src="../picture/number/10.png" width="150" height="150" alt=""/></li>
-		<li><img src="../picture/number/10.png" width="150" height="150" alt=""/></li>
+		<li><img src="../../picture/number/10.png" width="150" height="150" alt=""/></li>
+		<li><img src="../../picture/number/10.png" width="150" height="150" alt=""/></li>
+		<li><img src="../../picture/number/10.png" width="150" height="150" alt=""/></li>
 	</div>
 	<?php }else{ 
 		//HIGH&LOWが選択されている場合の処理 ?>
 	<div class="number">
 		<p>COM</p>
-		<li><img src="../picture/number/10.png" width="150" height="150" alt=""/></li>
-		<li><img src="../picture/number/10.png" width="150" height="150" alt=""/></li>
-		<li><img src="../picture/number/10.png" width="150" height="150" alt=""/></li>
+		<li><img src="../../picture/number/10.png" width="150" height="150" alt=""/></li>
+		<li><img src="../../picture/number/10.png" width="150" height="150" alt=""/></li>
+		<li><img src="../../picture/number/10.png" width="150" height="150" alt=""/></li>
 	</div>
 		
 	<div class="high_low">
 	<?php //それぞれの桁の数が５以上であるならHIGH、４以下であるならLOWを表示させている。
 	if($com_mil >= 5){ ?>
-			<li><img src="../picture/number/high.png" width="100" height="50" alt=""/></li>
+			<li><img src="../../picture/number/high.png" width="100" height="50" alt=""/></li>
 	<?php }else if($com_mil <= 4){ ?>
-			<li><img src="../picture/number/low.png" width="100" height="50" alt=""/></li>
+			<li><img src="../../picture/number/low.png" width="100" height="50" alt=""/></li>
 	<?php } ?>
 		
 		<p>　　  </p>
 		
 	<?php 
 	if($com_ten >= 5){ ?>
-			<li><img src="../picture/number/high.png" width="100" height="50" alt=""/></li>
+			<li><img src="../../picture/number/high.png" width="100" height="50" alt=""/></li>
 	<?php }else if($com_ten <= 4){ ?>
-			<li><img src="../picture/number/low.png" width="100" height="50" alt=""/></li>
+			<li><img src="../../picture/number/low.png" width="100" height="50" alt=""/></li>
 	<?php } ?>	
 		
 		<p>　　  </p>
 		
 	<?php 
 	if($com_one >= 5){ ?>
-			<li><img src="../picture/number/high.png" width="100" height="50" alt=""/></li>
+			<li><img src="../../picture/number/high.png" width="100" height="50" alt=""/></li>
 	<?php }else if($com_one <= 4){ ?>
-			<li><img src="../picture/number/low.png" width="100" height="50" alt=""/></li>
+			<li><img src="../../picture/number/low.png" width="100" height="50" alt=""/></li>
 	<?php } ?>
 		
 		
@@ -172,7 +172,7 @@
 		
 		?>
 	<li><p class="slashnumber">Slash Number</p></li>
-	<li><img class="snumber" src="../picture/number/<?php echo $slashnumber; ?>.png" width="100" height="100" alt=""/></li>
+	<li><img class="snumber" src="../../picture/number/<?php echo $slashnumber; ?>.png" width="100" height="100" alt=""/></li>
 	
 	</div>
 	<?php 
@@ -184,14 +184,14 @@
 		<?php  //プレイヤーが前回入力した数字を表示させている。
 		if(isset($_GET['ten']) && isset($_GET['one']) && isset($_GET['challenge'])){
 		?>
-			<li><img src="../picture/number/<?php echo $mil; ?>.png" width="150" height="150" alt=""/></li>
-			<li><img src="../picture/number/<?php echo $ten; ?>.png" width="150" height="150" alt=""/></li>
-			<li><img src="../picture/number/<?php echo $one; ?>.png" width="150" height="150" alt=""/></li>
+			<li><img src="../../picture/number/<?php echo $mil; ?>.png" width="150" height="150" alt=""/></li>
+			<li><img src="../../picture/number/<?php echo $ten; ?>.png" width="150" height="150" alt=""/></li>
+			<li><img src="../../picture/number/<?php echo $one; ?>.png" width="150" height="150" alt=""/></li>
 		<?php }else{ //最初の場合はすべて？の文字を表示させている?>
 		<?php $challenge = 0; ?>
-			<li><img src="../picture/number/10.png" width="150" height="150" alt=""/></li>
-			<li><img src="../picture/number/10.png" width="150" height="150" alt=""/></li>
-			<li><img src="../picture/number/10.png" width="150" height="150" alt=""/></li>
+			<li><img src="../../picture/number/10.png" width="150" height="150" alt=""/></li>
+			<li><img src="../../picture/number/10.png" width="150" height="150" alt=""/></li>
+			<li><img src="../../picture/number/10.png" width="150" height="150" alt=""/></li>
 		<?php } ?>
 	</div>
 	
@@ -200,10 +200,10 @@
 	?>
 	<p>　　</p>
 	<div class="eat_bite">
-		<li><img src="../picture/number/<?php echo $eat; ?>.png" width="100" height="100" alt=""/></li>
-		<li><img src="../picture/number/eat.png" width="200" height="100" alt=""/></li>
-		<li><img src="../picture/number/<?php echo $bite; ?>.png" width="100" height="100" alt=""/></li>
-		<li><img src="../picture/number/bite.png" width="200" height="100" alt=""/></li>
+		<li><img src="../../picture/number/<?php echo $eat; ?>.png" width="100" height="100" alt=""/></li>
+		<li><img src="../../picture/number/eat.png" width="200" height="100" alt=""/></li>
+		<li><img src="../../picture/number/<?php echo $bite; ?>.png" width="100" height="100" alt=""/></li>
+		<li><img src="../../picture/number/bite.png" width="200" height="100" alt=""/></li>
 	</div>
 	<?php
 	}
