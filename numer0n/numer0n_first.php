@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>スタート画面</title>
-<link href="Numer0n.css" rel="stylesheet" type="text/css">
+<link href="Page/Numer0n.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -42,12 +42,12 @@
 	<p>　</p>
 	<!- 遊び方へのリンク ->
 	<div class="asobi">
-		<a href="numer0n_explanation.html" class="asobikata">遊び方</a>
+		<a href="Page/numer0n_explanation.html" class="asobikata">遊び方</a>
 	</div>
 	<p>　</p>
 	
 	
-	<form action="numer0n.php" method="get">
+	<form action="Page/numer0n.php" method="get">
 		<div class="start">
 			<input type="submit" value="スタート" class="botan">
 			<input type="hidden" name="com" value=<?php echo ($com+13)*15; ?> >
